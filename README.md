@@ -6,51 +6,52 @@ The base site is Bikcraft from **Origamid**.
 ### :construction: Under Construction :construction:
 
 ## Project Structure
-
+ ```
 ac-bikcraft/
 │
 ├── public/
-│ ├── index.html
-│ └── favicon.ico
+│   ├── index.html
+│   └── favicon.ico
 │
 ├── src/
-│ ├── components/
-│ │ └── ExampleComponent.tsx
-│ │
-│ ├── pages/
-│ │ └── Home.tsx
-│ │
-│ ├── types/
-│ │ └── index.ts
-│ │
-│ ├── routes/
-│ │ ├── index.ts
-│ │ └── AppRoutes.tsx
-│ │
-│ ├── styles/
-│ │ ├── global.css
-│ │ └── components/
-│ │ └── ExampleComponent.css
-│ │
-│ ├── App.tsx
-│ ├── index.tsx
-│ ├── theme.ts
-│ └── utils.ts
+│   ├── components/
+│   │   └── ExampleComponent.tsx
+│   │
+│   ├── pages/
+│   │   └── Home.tsx
+│   │
+│   ├── types/
+│   │   └── index.ts
+│   │
+│   ├── routes/
+│   │   ├── index.ts
+│   │   └── AppRoutes.tsx
+│   │
+│   ├── styles/
+│   │   ├── global.css
+│   │   └── components/
+│   │       └── ExampleComponent.css
+│   │
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── theme.ts
+│   └── utils.ts
 │
 ├── tests/
-│ ├── components/
-│ │ └── ExampleComponent.test.tsx
-│ │
-│ ├── pages/
-│ │ └── Home.test.tsx
-│ │
-│ └── utils/
-│ └── utils.test.ts
+│   ├── components/
+│   │   └── ExampleComponent.test.tsx
+│   │
+│   ├── pages/
+│   │   └── Home.test.tsx
+│   │
+│   └── utils/
+│       └── utils.test.ts
 │
 ├── .gitignore
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 
 ## Getting Started
 
