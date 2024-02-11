@@ -1,8 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+import AppRoutes from "./routes/AppRoutes";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <h1>Welcome Bikcraft</h1>
-  </React.StrictMode>,
-)
+    <AppRoutes />
+  </React.StrictMode>
+);
