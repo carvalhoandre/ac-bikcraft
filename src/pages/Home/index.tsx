@@ -1,5 +1,7 @@
+import SectionTitle from "../../components/SectionTitle";
+
 const Home = () => {
-  return <h1>Welcome Bikcraft</h1>;
+  return <SectionTitle title="Welcome Bikcraft" subTitle="first version" />;
 };
 
 export default Home;
