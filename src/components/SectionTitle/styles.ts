@@ -2,7 +2,7 @@ import styled from "styled-components";
 import color from "../../styles/colors";
 
 export const BackGround = styled.div`
-  background-color: ${color.color11};
+  background-color: ${color.absoluteBlack};
   padding: 60px 0px;
 
   @media (max-width: 600px) {
@@ -32,7 +32,7 @@ export const Container = styled.div`
 `;
 
 export const Details = styled.span`
-  color: ${color.colorP1};
+  color: ${color.primary};
 `;
 
 export const Line = styled.div`
