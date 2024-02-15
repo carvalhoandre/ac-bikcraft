@@ -10,6 +10,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, subTitle }) => {
     <styles.BackGround>
       <styles.Container>
         <Ty2lb color={color.charcoal}>{title}</Ty2lb>
+        
         <styles.Line>
           <Ty1xl color={color.white}>
             {subTitle} <styles.Details>.</styles.Details>

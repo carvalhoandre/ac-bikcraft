@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Logo from "../../assets/ac-bikcraft.svg";
+
 import * as styles from "./styles";
 
 const Header: React.FC = () => {

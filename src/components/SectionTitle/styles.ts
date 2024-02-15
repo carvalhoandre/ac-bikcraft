@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import color from "../../styles/colors";
 
+import ContainerDefault from "../../styles/components/container";
+
 export const BackGround = styled.div`
   background-color: ${color.absoluteBlack};
   padding: 60px 0px;
@@ -10,14 +12,7 @@ export const BackGround = styled.div`
   }
 `;
 
-export const Container = styled.div`
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-
+export const Container = styled(ContainerDefault)`
   &:first-child {
     margin-bottom: 4px;
   }

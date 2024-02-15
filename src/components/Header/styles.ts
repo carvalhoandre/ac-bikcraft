@@ -1,23 +1,19 @@
 import styled from "styled-components";
 import color from "../../styles/colors";
 
+import ContainerDefault from "../../styles/components/container";
+
 export const Header = styled.header`
   background-color: ${color.trueBlack};
 `;
 
-export const Container = styled.div`
+export const Container = styled(ContainerDefault)`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
-  box-sizing: border-box;
-
-  max-width: 1200px;
-
-  margin: 0 auto;
 
   @media (max-width: 800px) {
     & a:after {
