@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Introduction from "./components/Introduction";
+import BicyclesList from "./components/BicyclesList";
 
 const Home = () => {
   return (
@@ -7,6 +8,8 @@ const Home = () => {
       <Header />
 
       <Introduction />
+
+      <BicyclesList />
     </>
   );
 };

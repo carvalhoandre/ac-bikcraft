@@ -4,7 +4,6 @@ import color from "../../styles/colors";
 import ContainerDefault from "../../styles/components/container";
 
 export const BackGround = styled.div`
-  background-color: ${color.absoluteBlack};
   padding: 60px 0px;
 
   @media (max-width: 600px) {
