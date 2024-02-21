@@ -1,24 +1,42 @@
-const colors = {
-  color0: '#ffffff',
-  color1: '#f7f7f7',
-  color2: '#ededed',
-  color3: '#dedede',
-  color4: '#cccccc',
-  color5: '#b2b2b2',
-  color6: '#9c9c9c',
-  color7: '#717171',
-  color8: '#595959',
-  color9: '#404040',
-  color10: '#2e2e2e',
-  color11: '#111111',
-  color12: '#000000',
+enum Grayscale {
+  white = "#ffffff",
+  lightGray = "#f7f7f7",
+  gray = "#ededed",
+  mediumGray = "#dedede",
+  darkGray = "#cccccc",
+  charcoal = "#b2b2b2",
+  slate = "#9c9c9c",
+  gunmetal = "#717171",
+  darkSlate = "#595959",
+  black = "#404040",
+}
 
-  // Primary
-  colorP1: '#ffbb00',
-  colorP2: '#e4a30b',
-  colorP3: '#a66f00',
-  colorP4: '#664400',
-  colorP5: '#332200',
+enum DarkShades {
+  jet = "#2e2e2e",
+  absoluteBlack = "#111111",
+  trueBlack = "#000000",
+}
+
+enum LightShades {
+  light1 = "#a569ff",
+  light2 = "#c19eff",
+}
+
+enum PrimaryColor {
+  primary = "#7038cf",
+}
+
+enum DarkColors {
+  dark1 = "#4d1f99",
+  dark2 = "#3a156e",
+}
+
+const colors = {
+  ...Grayscale,
+  ...DarkShades,
+  ...LightShades,
+  ...PrimaryColor,
+  ...DarkColors,
 };
 
 export default colors;
