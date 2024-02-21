@@ -5,7 +5,7 @@ import color from "../../../../styles/colors";
 import ContainerDefault from "../../../../styles/components/container";
 
 export const Main = styled.main`
-  background: ${color.trueBlack} url("../../../../assets/dec/bottom-left.svg")
+  background: ${color.trueBlack} url("https://github.com/carvalhoandre/origamid-html-css/blob/main/html-css/bikcraft-final/assets/dec/bottom-left.svg")
     no-repeat bottom 160px left 20px;
   box-shadow: inset 0 -120px ${color.white};
 

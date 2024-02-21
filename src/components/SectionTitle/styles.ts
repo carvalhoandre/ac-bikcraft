@@ -1,9 +1,15 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import color from "../../styles/colors";
 
 import ContainerDefault from "../../styles/components/container";
 
-export const BackGround = styled.div`
+export const BackGround = styled.div<{ isDark?: boolean }>`
+  ${({ isDark }) =>
+    isDark &&
+    css`
+      background-color: ${color.absoluteBlack};
+    `}
+
   padding: 60px 0px;
 
   @media (max-width: 600px) {

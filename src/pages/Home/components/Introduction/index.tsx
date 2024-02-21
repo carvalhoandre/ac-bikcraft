@@ -1,9 +1,6 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 
-import Nimbus from "../../../../assets/bicycles/nimbus.jpg";
-import Ilustration from "../../../../assets/photos/insurance.jpg";
-
 import { Ty1xxl, Ty2l } from "../../../../styles/typography";
 import color from "../../../../styles/colors";
 
@@ -11,6 +8,8 @@ import Button from "../../../../components/Button";
 import * as styles from "./styles";
 
 const Introduction: React.FC = () => {
+ const bucketUrl = import.meta.env.VITE_BUCKET_URL;
+
   const handleNavigate = (route: string) => {
     return <Navigate to={route} />;
   };
@@ -37,10 +36,10 @@ const Introduction: React.FC = () => {
         <picture>
           <source
             media="(max-width: 800px)"
-            srcSet={Nimbus}
+            srcSet={bucketUrl + "/bicicletas/nimbus.jpg?raw=true"}
           />
           <styles.Image
-            src={Ilustration}
+            src={bucketUrl + "/fotos/seguros.jpg?raw=true"}
             alt="Bicicleta elétrica preta."
             width="1280"
             height="1600"

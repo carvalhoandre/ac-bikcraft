@@ -1,31 +1,42 @@
+enum Grayscale {
+  white = "#ffffff",
+  lightGray = "#f6f6f6",
+  gray = "#ededed",
+  mediumGray = "#dedede",
+  darkGray = "#cccccc",
+  charcoal = "#b2b2b2",
+  slate = "#9c9c9c",
+  gunmetal = "#717171",
+  darkSlate = "#595959",
+  black = "#404040",
+}
+
+enum DarkShades {
+  jet = "#2e2e2e",
+  absoluteBlack = "#111111",
+  trueBlack = "#23272A",
+}
+
+enum LightShades {
+  light1 = "#a569ff",
+  light2 = "#c19eff",
+}
+
+enum PrimaryColor {
+  primary = "#7038cf",
+}
+
+enum DarkColors {
+  dark1 = "#4d1f99",
+  dark2 = "#3a156e",
+}
+
 const colors = {
-  // Grayscale
-  white: "#ffffff",
-  lightGray: "#f7f7f7",
-  gray: "#ededed",
-  mediumGray: "#dedede",
-  darkGray: "#cccccc",
-  charcoal: "#b2b2b2",
-  slate: "#9c9c9c",
-  gunmetal: "#717171",
-  darkSlate: "#595959",
-  black: "#404040",
-
-  // Dark shades
-  jet: "#2e2e2e",
-  absoluteBlack: "#111111",
-  trueBlack: "#000000",
-
-  // Primary Color
-  primary: "#7038CF",
-
-  // Dark Shades
-  dark1: "#4D1F99",
-  dark2: "#3A156E",
-
-  // Light Shades
-  light1: "#A569FF",
-  light2: "#C19EFF",
+  ...Grayscale,
+  ...DarkShades,
+  ...LightShades,
+  ...PrimaryColor,
+  ...DarkColors,
 };
 
 export default colors;
