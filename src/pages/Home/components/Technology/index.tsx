@@ -13,8 +13,8 @@ import * as styles from "./styles";
 const Technology: React.FC = () => {
   const bucketUrl = import.meta.env.VITE_BUCKET_URL;
 
-  const handleNavigate = (route: string) => {
-    return <Navigate to={route} />;
+  const handleNavigate = () => {
+    return <Navigate to={"bicycles"} />;
   };
 
   return (
@@ -36,7 +36,7 @@ const Technology: React.FC = () => {
 
           <Button
             title="Escolha um modelo"
-            action={() => handleNavigate("bicycles")}
+            action={() => handleNavigate()}
           />
 
           <styles.Benefits>
